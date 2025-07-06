@@ -21,6 +21,7 @@ const App = () => {
     }
   };
 
+  
   // call fetched data
   useEffect(() => {
     fetchUsers();
