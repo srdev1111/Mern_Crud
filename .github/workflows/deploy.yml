@@ -20,9 +20,9 @@ jobs:
           node-version: '24'
       - name: Install dependencies
         run: |
-          cd client 
-          vite
+          cd client
+          npm install
       - name: Build project
-        run: vite build
+        run: npm vite build
       - name: Run tests
-        run: vite
+        run: npm test
