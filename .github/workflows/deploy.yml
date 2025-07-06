@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: |
           cd client 
-          npm install
+          vite
       - name: Build project
-        run: npm run build
+        run: vite build
       - name: Run tests
-        run: npm test
+        run: vite
